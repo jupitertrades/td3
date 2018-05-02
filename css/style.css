@@ -76,6 +76,33 @@ ul {
     padding: 0;
 }
 
+.tl {
+    color: blue;
+    text-decoration:underline;
+}
+
+.left50 {
+    text-align:left;
+    margin-top: -50px;
+
+}
+
+.left {
+    text-align:left;    
+
+}
+
+.now {
+    text-align:left;    
+    font-size:16px;
+
+}
+
+.bullet-intro1 {
+    font-size:18px; 
+    margin-top: -25px;
+}
+
 /*---------- 2. Navigation and Logo Section ----------*/
 
 
