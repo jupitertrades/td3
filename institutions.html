@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Tracking Performance of SixJupiter's Premium Signals</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/scrolling-bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="index.html"><img src="https://sixjupiter.com/img/logo-w.png" height="55" width="55"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="/index.html" style="color:white;">Financial Advisor</a>
+            </li>
+ 
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="/returns.html" style="color:white;">Returns</a>
+            </li>
+
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Data Sets Built for Creating Artificial Intelligence</h2>
+            <p class="lead">To power its own machine learning models, SixJupiter 
+generates data sets based on proven academic research to have predictive power in financial markets. 
+SixJupiter makes this data available to financial advisors and money managers to assist them in delivering
+quality financial advice to their clients. </p>
+
+<p>Below is an in-depth look at the data set used to generate predictions for text-based advisor and signal service designed
+for retail individuals. SUBSCRIBE, CUSTOM, SAMPLE        
+
+           <div align="center"><table class="container">
+	<thead>
+		<tr>
+			<th>Variable</th>
+			<th>Definition</th>
+			<th>Imputation</th>
+			<th>Supporting Research</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Ticker</td>
+			<td>The ticker symbol of the asset in question utilized on a US exchange.</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Date</td>
+			<td>The date the data points are associated with. All market capitalization and price ratio data are based on the close price of the ticker on the date specified.</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Market Capitalization</td>
+			<td>Number of shares outstanding multiplied by the close price.</td>
+			<td></td>
+			<td></td>
+		</tr>
+    <tr>
+			<td>Price/Earnings Common</td>
+			<td>The market capitalization divided by the trailing twelve months (TTM) net income attributable to common shareholders (so net income minus preferred dividends and earnings).</td>
+			<td></td>
+			<td></td>
+		</tr>
+    <tr>
+			<td>Price/Sales</td>
+			<td>Market capitalization divided by TTM revenue.</td>
+			<td></td>
+			<td></td>
+		</tr>
+    <tr>
+			<td>Price/OCF</td>
+			<td>Market capitalization divided by TTM operating cash flow. </td>
+			<td></td>
+			<td></td>
+		</tr>
+
+
+  <tr>
+			<td>Shareholder Yield</td>
+			<td>The sum of TTM net share issuance, TTM dividends issued, and TTM change in liabilities divided by the market capitalization.  </td>
+			<td></td>
+			<td></td>
+		</tr>
+  <tr>
+			<td>Price vs 200 SMA</td>
+			<td>The percent change in the current market capitalization relative to the 200 day simple moving average of the market capitalization.  </td>
+			<td></td>
+			<td></td>
+		</tr>
+  <tr>
+			<td>Price vs 100 SMA</td>
+			<td>The percent change in the current market capitalization relative to the 100 day simple moving average of the market capitalization.  </td>
+			<td></td>
+			<td></td>
+		</tr>
+  <tr>
+			<td>Price vs 50 SMA</td>
+			<td>The percent change in the current market capitalization relative to the 50 day simple moving average of the market capitalization.  </td>
+			<td></td>
+			<td></td>
+		</tr>
+  <tr>
+			<td>Price vs 20 SMA</td>
+			<td>The percent change in the current market capitalization relative to the 20 day simple moving average of the market capitalization. </td>
+			<td></td>
+			<td></td>
+		</tr>
+  <tr>
+			<td>20 SMA - 50 SMA</td>
+			<td>The percent change in the 20 day simple moving average market capitalization relative to the 50 day simple moving average of the market capitalization. </td>
+			<td></td>
+			<td></td>
+		</tr>
+  <tr>
+			<td>50 SMA - 100 SMA</td>
+			<td>The percent change in the 50 day simple moving average market capitalization relative to the 100 day simple moving average of the market capitalization. </td>
+			<td></td>
+			<td></td>
+		</tr>
+  <tr>
+			<td>100 SMA - 200 SMA</td>
+			<td>The percent change in the 100 day simple moving average market capitalization relative to the 200 day simple moving average of the market capitalization. </td>
+			<td></td>
+			<td></td>
+		</tr>
+  <tr>
+			<td>Sector Price vs Sector 100 SMA</td>
+			<td>The average percent change in the market capitalization of tickers in the sector the given ticker is in relative to the 100 day simple moving average of the market capitalization of the given sector. In sum, an assessment of how the sector as a whole the ticker is in is trending relative to its 100 day simple moving average. </td>
+			<td></td>
+			<td></td>
+		</tr>
+  <tr>
+			<td>Sector Price vs Sector 200 SMA</td>
+			<td>The average percent change in the market capitalization of tickers in the sector the given ticker is in relative to the 200 day simple moving average of the market capitalization of the given sector. In sum, an assessment of how the sector as a whole the ticker is in is trending relative to its 200 day simple moving average.  </td>
+			<td></td>
+			<td></td>
+		</tr>
+  <tr>
+			<td>Ticker 100 SMA vs Sector 100 SMA</td>
+			<td>The percent change in the ticker's market capitalization relative to its 100 day simple moving average divided by the percent change in the market capitalization of the ticker relative to the 100 day simple moving average of the sector's market capitalization. Basically, a summary of how the ticker has performed relative to its sector performance over the past 100 days.  </td>
+			<td></td>
+			<td></td>
+		</tr>
+  <tr>
+			<td>Ticker 200 SMA vs Sector 200 SMA</td>
+			<td>The percent change in the ticker's market capitalization relative to its 200 day simple moving average divided by the percent change in the market capitalization of the ticker relative to the 200 day simple moving average of the sector's market capitalization. Basically, a summary of how the ticker has performed relative to its sector performance over the past 200 days.  </td>
+			<td></td>
+			<td></td>
+		</tr>
+  <tr>
+			<td>Dilution Factor</td>
+			<td>Number of fully diluted shares the ticker has divided by the current number of shares issued. </td>
+			<td></td>
+			<td></td>
+		</tr>
+  <tr>
+			<td>Debt/Operating Expenses</td>
+			<td>Total debt divided by TTM operating expenses. </td>
+			<td></td>
+			<td></td>
+		</tr>
+  <tr>
+			<td>Share-Based Compensation/Operating Expenses</td>
+			<td>TTM share based compensation as a percentage TTM operating expenses. </td>
+			<td></td>
+			<td></td>
+		</tr>
+  <tr>
+			<td>SG&A/Operating Expenses</td>
+			<td>TTM sales, general, and administrative expense as a percentage of TTM operating expenses. </td>
+			<td></td>
+			<td></td>
+		</tr>
+  <tr>
+			<td>R&D/Operating Expenses</td>
+			<td>TTM research and development expense as a percentage of TTM operating expenses. </td>
+			<td></td>
+			<td></td>
+		</tr>
+  <tr>
+			<td>Interest Expense/Operating Expense</td>
+			<td>TTM interest expense as a percentage of TTM operating expenses. </td>
+			<td></td>
+			<td></td>
+		</tr>
+  <tr>
+			<td>Equity Multiplier</td>
+			<td>Average value of total assets on balance sheet in past year divided by average value of equity on balance sheet in past year.  </td>
+			<td></td>
+			<td></td>
+		</tr>
+  <tr>
+			<td>Capital Turnover</td>
+			<td>TTM revenue divided by equity value on most recent balance sheet.  </td>
+			<td></td>
+			<td></td>
+		</tr>
+
+<tr>
+			<td>Q/Q Revenue Growth</td>
+			<td>The growth of the most recent quarter's TTM revenue relative to the preceding quarter's TTM revenue.  </td>
+			<td></td>
+			<td></td>
+		</tr>
+
+<tr>
+			<td>Q2Q Revenue Growth</td>
+			<td>The growth of the most recent quarter's TTM revenue relative to TTM revenue two quarters prior.   </td>
+			<td></td>
+			<td></td>
+		</tr>
+
+<tr>
+			<td>Q3Q Revenue Growth</td>
+			<td>The growth of the most recent quarter's TTM revenue relative to TTM revenue three quarters prior.  </td>
+			<td></td>
+			<td></td>
+		</tr>
+
+<tr>
+			<td>YoY Revenue Growth</td>
+			<td>The growth of the most recent quarter's TTM revenue relative to TTM revenue one year ago.   </td>
+			<td></td>
+			<td></td>
+		</tr>
+
+<tr>
+			<td>Two Year Revenue Growth</td>
+			<td>The growth of the most recent quarter's TTM revenue relative to TTM revenue two years ago.  </td>
+			<td></td>
+			<td></td>
+		</tr>
+
+<tr>
+			<td>Three Year Revenue Growth</td>
+			<td>The growth of the most recent quarter's TTM revenue relative to TTM revenue three years ago.  </td>
+			<td></td>
+			<td></td>
+		</tr>
+
+<tr>
+			<td>Four Year Revenue Growth</td>
+			<td>The growth of the most recent quarter's TTM revenue relative to TTM revenue four years ago.   </td>
+			<td></td>
+			<td></td>
+		</tr>
+
+<tr>
+			<td>Five Year Revenue Growth</td>
+			<td>The growth of the most recent quarter's TTM revenue relative to TTM revenue five years ago.  </td>
+			<td></td>
+			<td></td>
+		</tr>
+
+<tr>
+			<td>Q/Q EBIT Growth</td>
+			<td>The growth of the most recent quarter's TTM earnings before interest and taxes relative to the preceding quarter's TTM earnings before interest and taxes.  </td>
+			<td></td>
+			<td></td>
+		</tr>
+
+<tr>
+			<td>Q2Q EBIT Growth</td>
+			<td>The growth of the most recent quarter's TTM earnings before interest and taxes relative to TTM earnings before interest and taxes two quarters prior.   </td>
+			<td></td>
+			<td></td>
+		</tr>
+
+<tr>
+			<td>Q3Q EBIT Growth</td>
+			<td>The growth of the most recent quarter's TTM earnings before interest and taxes relative to TTM earnings before interest and taxes three quarters prior.   </td>
+			<td></td>
+			<td></td>
+		</tr>
+
+<tr>
+			<td>YoY EBIT Growth</td>
+			<td>The growth of the most recent quarter's TTM earnings before interest and taxes relative to TTM earnings before interest and taxes one year ago.   </td>
+			<td></td>
+			<td></td>
+		</tr>
+
+<tr>
+			<td>Two Year EBIT Growth</td>
+			<td>The growth of the most recent quarter's TTM earnings before interest and taxes relative to TTM earnings before interest and taxes two years ago. </td>
+			<td></td>
+			<td></td>
+		</tr>
+
+<tr>
+			<td>Capital Turnover</td>
+			<td>TTM revenue divided by equity value on most recent balance sheet.  </td>
+			<td></td>
+			<td></td>
+		</tr>
+
+<tr>
+			<td>Capital Turnover</td>
+			<td>TTM revenue divided by equity value on most recent balance sheet.  </td>
+			<td></td>
+			<td></td>
+		</tr>
+
+<tr>
+			<td>Capital Turnover</td>
+			<td>TTM revenue divided by equity value on most recent balance sheet.  </td>
+			<td></td>
+			<td></td>
+		</tr>
+
+<tr>
+			<td>Capital Turnover</td>
+			<td>TTM revenue divided by equity value on most recent balance sheet.  </td>
+			<td></td>
+			<td></td>
+		</tr>
+
+<tr>
+			<td>Capital Turnover</td>
+			<td>TTM revenue divided by equity value on most recent balance sheet.  </td>
+			<td></td>
+			<td></td>
+		</tr>
+
+<tr>
+			<td>Capital Turnover</td>
+			<td>TTM revenue divided by equity value on most recent balance sheet.  </td>
+			<td></td>
+			<td></td>
+		</tr>
+
+<tr>
+			<td>Capital Turnover</td>
+			<td>TTM revenue divided by equity value on most recent balance sheet.  </td>
+			<td></td>
+			<td></td>
+		</tr>
+
+<tr>
+			<td>Capital Turnover</td>
+			<td>TTM revenue divided by equity value on most recent balance sheet.  </td>
+			<td></td>
+			<td></td>
+		</tr>
+
+<tr>
+			<td>Capital Turnover</td>
+			<td>TTM revenue divided by equity value on most recent balance sheet.  </td>
+			<td></td>
+			<td></td>
+		</tr>
+
+
+
+	</tbody>
+</table></div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; SixJupiter 2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
+
+  </body>
+
+</html>
