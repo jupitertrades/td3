@@ -287,14 +287,14 @@ img {
 .blue { color: #185875; }
 .yellow { color: #FFF842; }
 
-.container th h1 {
+.tablejazz th h1 {
 	  font-weight: bold;
 	  font-size: 1em;
   text-align: left;
   color: #185875;
 }
 
-.container td {
+.tablejazz td {
 	  font-weight: normal;
 	  font-size: 1em;
   -webkit-box-shadow: 0 2px 2px -2px #0E1119;
@@ -302,23 +302,23 @@ img {
 	        box-shadow: 0 2px 2px -2px #0E1119;
 }
 
-.container {
+.tablejazz {
 	  text-align: left;
 	  overflow: hidden;
-	  width: 80%;
+	  width: 100%;
 	  margin: 0 auto;
   display: table;
   padding: 0 0 8em 0;
 }
 
-.container td, .container th {
+.tablejazz td, .tablejazz th {
 	  padding-bottom: 2%;
 	  padding-top: 2%;
   padding-left:2%;  
 }
 
 /* Background-color of the odd rows */
-.container tr:nth-child(odd) {
+.tablejazz tr:nth-child(odd) {
 	  background-color: #f2f2ea;
 }
 
@@ -327,20 +327,22 @@ img {
 	  background-color: #f7f7f4;
 }
 
-.container th {
-	  background-color: #1F2739;
+.tablejazz th {
+	  background-color: #ffffe6;
+          color: #000000;
 }
 
-.container td:first-child { color: #FB667A; }
+.tablejazz td:first-child { color: #FB667A; }
 
-.container tr:hover {
+.tablejazz tr:hover {
    background-color: #464A52;
+   color: #ffffff;
 -webkit-box-shadow: 0 6px 6px -6px #0E1119;
 	   -moz-box-shadow: 0 6px 6px -6px #0E1119;
 	        box-shadow: 0 6px 6px -6px #0E1119;
 }
 
-.container td:hover {
+.tablejazz td:hover {
   background-color: #FFF842;
   color: #403E10;
   font-weight: bold;
@@ -355,6 +357,8 @@ img {
 }
 
 @media (max-width: 800px) {
-.container td:nth-child(4),
-.container th:nth-child(4) { display: none; }
+.tablejazz td:nth-child(4),
+.tablejazz th:nth-child(4) { display: none; }
 }
+
+
