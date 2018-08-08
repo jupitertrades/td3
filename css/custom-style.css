@@ -173,7 +173,7 @@ img {
 #advantage::before {
     content: '';
     position: absolute;
-    top: -75px;
+    top: -65px;
     right: 0;
     border-top: 290px solid #fff;
     border-left: 2000px solid transparent;
@@ -375,3 +375,5 @@ text-decoration:underline;
 font-size:1.25rem;}
 
 .subsect {padding-top:20px; padding-bottom:0px;}
+
+.left5010 {text-align:left; margin-top:10px;}
