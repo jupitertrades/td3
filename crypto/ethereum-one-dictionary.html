@@ -305,14 +305,25 @@ higher score indicates higher developer interest. See CoinGecko's <a href="https
 		</tr>
 
 <tr>
-			<td>totalSupply</td>
+			<td>totalsupply</td>
 			<td>The total supply of currency issued.</td>
 		</tr>
 
 <tr>
-			<td>availableSupply</td>
+			<td>availablesupply</td>
 			<td>The total supply of currency that is publicly through exchanges.</td>
 		</tr>
+
+<tr>
+			<td>transferscount</td>
+			<td>The total number of transfers of the currency that have been recorded on the Ethereum blockchain.</td>
+		</tr>
+
+<tr>
+			<td>holderscount</td>
+			<td>The total number of wallets on the Ethereum blockchain that hold the currency in question.</td>
+		</tr>
+
 
 <tr>
 			<td>dilution_factor</td>
@@ -320,26 +331,54 @@ higher score indicates higher developer interest. See CoinGecko's <a href="https
 		</tr>
 
 <tr>
-			<td>rich_pct_available</td>
-			<td>The amount of currency held by the top 1,000 holders, divided by the available supply of the currency. A measure of how much the top holders have relative to the available market capitalization. </td>
+			<td>id_pct_available</td>
+			<td>The amount of currency held by the top 1,000 holders that have been identified (excluding wallets used to burn currency) 
+divided by the available supply of currency. Identified wallets are typically exchanges, foundations that issue the currency themselves, 
+or multi-signature wallets that store currency on the behalf of multiple users. 
+This is an approximation of how much of the currency is held wallets representing multiple users and their balances. </td>
 		</tr>
 
 <tr>
-			<td>rich_pct_total</td>
-			<td>The amount of currency held by the top 1,000 holders, divided by the total supply of the currency. A measure of how much the top holders have relative to the total supply of the currency. </td>
+			<td>id_pct_total</td>
+			<td>The same as id_pct_available, except the denominator is now the total supply of currency issued. </td>
 		</tr>
 
 
 <tr>
-
-<tr>
-			<td>richsecond_pct_available</td>
-			<td>The amount of currency held by the top 999 holders excluding the absolute top holder, divided by the available supply of the currency. A measure of how much the top holders have relative to the available market capitalization. For many coins with a small market capitalization, the top holder is often the default owner of unissued tokens -- so excluding that account can give a truer representation of tokens held by actual owners. </td>
+			<td>burned_pct_available</td>
+			<td>The amount of currency that has been sent to addresses known to burn currency, 
+divided by the available supply of currency. This metric may give additional insight into the supply management policy of the currency.</td>
 		</tr>
 
 <tr>
-			<td>richsecond_pct_total</td>
-			<td>The amount of currency held by the top 999 holders excluding the absolute top holder, divided by the total supply of the currency. A measure of how much the top holders have relative to the total supply of the currency. For many coins with a small market capitalization, the top holder is often the default owner of unissued tokens -- so excluding that account can give a truer representation of tokens held by actual owners.</td>
+			<td>burned_pct_total</td>
+			<td>The same as burned_pct_available, except the denominator is now the total supply of currency issued. </td>
+		</tr>
+
+<tr>
+			<td>anon_pct_available</td>
+			<td>The amount of currency held by the top 1,000 holders that have NOT been identified and are not used to burn currency 
+divided by the available supply of currency. This is an approximation of how much of the currency is held in wallets that are not exchanges or
+multi-user wallets.</td>
+		</tr>
+
+<tr>
+			<td>anon_pct_total</td>
+			<td>The same as anon_pct_available, except the denominator is now the total supply of currency issued. </td>
+		</tr>
+
+
+<tr>
+			<td>minus_topnbni_pct_available</td>
+			<td>First, the amount of currency held by the top 1,000 holders that (1) have NOT been identified, (2) are not used to burn currency,
+and after these removals have occurred, (3) are not the wallet with the most units of currency is calculated. This amount is then    
+divided by the available supply of currency. This metric is very similar to the *anon_* metrics, except the wealthiest wallet has been removed.
+This is because the wealthiest wallet is often the default wallet that holds created but unissued currency. </td>
+		</tr>
+
+<tr>
+			<td>minus_topnbni_pct_total</td>
+			<td>The same as minus_topnbni_pct_available, except the denominator is now the total supply of currency issued. </td>
 		</tr>
 
 
