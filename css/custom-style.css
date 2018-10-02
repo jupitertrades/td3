@@ -190,7 +190,7 @@ img {
     width: 0;
 }
 .social-section {
-  padding-top: 75px;
+  padding-top: 165px;
 }
 
 
@@ -389,3 +389,21 @@ ol.processpoints li {padding-top: 10px; padding-bottom: 10px;}
 .orangelink {font-weight:bold; text-decoration:underline; color:#ffd699;}
 .textblock {line-height:160%; font-size:16px; margin-top:25px; margin-bottom:25px;}
 .bigstart {font-size:20px; font-weight:bold;}
+
+hr {
+  border: 0;
+  border-top: 3px double #9757EA;
+}
+
+.btn-purple {
+    background-color: #9757EA;
+    color: #ffffff;
+    border-color: #9757EA;
+}
+
+.btn-purple:focus {
+    color: #fff;
+}
+.btn-purple:active {
+    color: #fff;
+}
