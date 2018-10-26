@@ -1344,8 +1344,7 @@ p {
 
 /*---------- SPACING SHORTCODES ----------*/
 
-.section-padding {
-    padding-top: 75px;
+.section-padding {    
     padding-bottom: 120px;
 }
 
@@ -2155,7 +2154,7 @@ p {
     position: absolute;
     bottom: 0;
     right: 0;
-    border-bottom: 290px solid #fff;
+    border-bottom: 290px solid #f2f4ec;
     border-left: 2000px solid transparent;
     width: 0;
 }
