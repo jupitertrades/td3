@@ -34,6 +34,34 @@
   });
   wow.init();
 </script>
+<!-- Start of Async Drift Code -->
+<script>
+"use strict";
+
+!function() {
+  var t = window.driftt = window.drift = window.driftt || [];
+  if (!t.init) {
+    if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+    t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+    t.factory = function(e) {
+      return function() {
+        var n = Array.prototype.slice.call(arguments);
+        return n.unshift(e), t.push(n), t;
+      };
+    }, t.methods.forEach(function(e) {
+      t[e] = t.factory(e);
+    }), t.load = function(t) {
+      var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+      o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+      var i = document.getElementsByTagName("script")[0];
+      i.parentNode.insertBefore(o, i);
+    };
+  }
+}();
+drift.SNIPPET_VERSION = '0.3.1';
+drift.load('2v6xykvs7b4u');
+</script>
+<!-- End of Async Drift Code -->
 </head>
 
 <body>
@@ -328,12 +356,6 @@ is a data scientist with over a decade of experience in digital marketing for fi
 <!-- Start Back To Top -->
 <a data-scroll id="back-to-top" href="#banner3"><i class="icon ion-chevron-up"></i></a>
 <!-- End Back To Top -->
-
-<!--Start of Zendesk Chat Script--><script type="text/javascript">window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
-    d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
-    _.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
-    $.src="https://v2.zopim.com/?580FcModsTH94Kub6oWaP8spH1h8Qt6l";z.t=+new Date;$.
-    type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");</script><!--End of Zendesk Chat Script-->
 
 <!--   JQUERY FILES     -->
 <script src="js/jquery.min.js"></script>
