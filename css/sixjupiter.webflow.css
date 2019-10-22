@@ -727,6 +727,7 @@ p {
 }
 
 .column-4 {
+  padding-top: 17px;
   padding-right: 4px;
   padding-bottom: 0px;
 }
@@ -736,6 +737,7 @@ p {
 }
 
 .text-block-7 {
+  padding-left: 5px;
   font-size: 22px;
   line-height: 180%;
   text-align: left;
@@ -755,6 +757,10 @@ p {
 .text-block-8 {
   font-size: 18px;
   line-height: 180%;
+}
+
+.image-10 {
+  padding-bottom: 20px;
 }
 
 html.w-mod-js *[data-ix="fade-in-on-load"] {
