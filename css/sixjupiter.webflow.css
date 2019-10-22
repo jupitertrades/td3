@@ -176,7 +176,7 @@ p {
 
 .section.footer {
   padding-top: 42px;
-  padding-bottom: 42px;
+  padding-bottom: 52px;
   border-radius: 0px;
   background-color: #2b2c2e;
   color: #e4e8eb;
@@ -706,6 +706,8 @@ p {
 }
 
 .text-block-6 {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
   padding-left: 0px;
 }
 
