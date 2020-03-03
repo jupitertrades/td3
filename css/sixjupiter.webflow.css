@@ -61,7 +61,7 @@ p {
 
 .button {
   display: inline-block;
-  margin: 15px 351px 1px 365px;
+  margin: 15px 99px 1px 365px;
   padding: 13px 16px 13px 15px;
   border-radius: 3px;
   background-color: #000;
@@ -983,7 +983,7 @@ p {
 
 @media screen and (max-width: 991px) {
   .button {
-    margin-right: 256px;
+    margin-right: 77px;
     margin-left: 263px;
     padding-right: 19px;
     padding-left: 17px;
