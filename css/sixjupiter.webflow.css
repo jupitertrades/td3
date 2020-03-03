@@ -61,7 +61,7 @@ p {
 
 .button {
   display: inline-block;
-  margin: 15px 118px 1px 365px;
+  margin: 15px 351px 1px 365px;
   padding: 13px 16px 13px 15px;
   border-radius: 3px;
   background-color: #000;
@@ -983,9 +983,9 @@ p {
 
 @media screen and (max-width: 991px) {
   .button {
-    margin-right: 21px;
+    margin-right: 256px;
     margin-left: 263px;
-    padding-right: 22px;
+    padding-right: 19px;
     padding-left: 17px;
   }
   .button.in-pricing {
@@ -1038,7 +1038,8 @@ p {
     margin-bottom: 8px;
   }
   .button {
-    margin-left: 25px;
+    margin-right: 141px;
+    margin-left: 147px;
     padding-right: 16px;
   }
   .logo-text {
@@ -1090,6 +1091,12 @@ p {
     margin-top: 0px;
     margin-bottom: 34px;
   }
+  .column-11 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1104,6 +1111,18 @@ p {
   }
   .press-logo {
     width: 28%;
+  }
+  .text-block-10 {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+  .column-11 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
   }
 }
 
