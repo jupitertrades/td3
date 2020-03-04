@@ -790,6 +790,7 @@ p {
 }
 
 .text-block-10 {
+  margin-top: 118px;
   font-size: 22px;
   line-height: 40px;
 }
@@ -1032,8 +1033,11 @@ p {
 }
 
 .button-2lowwhite {
+  background-color: #000;
   box-shadow: 4px 4px 3px 2px #000;
+  color: #fff;
   font-size: 32px;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 991px) {
@@ -1084,6 +1088,7 @@ p {
     margin-top: -5px;
   }
   .text-block-10 {
+    margin-top: 98px;
     font-size: 22px;
   }
   .div-block-4 {
@@ -1119,6 +1124,10 @@ p {
   .button-2lowwhite {
     background-color: #000;
     font-size: 16px;
+  }
+  .text-block-13 {
+    font-size: 14px;
+    text-align: center;
   }
 }
 
@@ -1183,6 +1192,18 @@ p {
   .text-block-10 {
     margin-top: 40px;
   }
+  .columns-4 {
+    display: block;
+  }
+  .columns-5 {
+    display: block;
+  }
+  .columns-6 {
+    display: block;
+  }
+  .image-11 {
+    display: none;
+  }
   .div-block-4 {
     padding-top: 2px;
   }
@@ -1218,6 +1239,12 @@ p {
     background-color: #000;
     color: #fff;
     font-size: 16px;
+  }
+  .column-12 {
+    display: block;
+  }
+  .image-18 {
+    display: none;
   }
 }
 
