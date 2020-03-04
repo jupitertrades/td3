@@ -698,6 +698,8 @@ p {
 .text-block-5 {
   margin-bottom: 9px;
   padding-bottom: 0px;
+  font-size: 22px;
+  line-height: 180%;
 }
 
 .link {
@@ -976,7 +978,7 @@ p {
 
 .image-15 {
   max-width: 75%;
-  padding-top: 29px;
+  padding-top: 35px;
 }
 
 .image-16 {
@@ -1227,7 +1229,7 @@ p {
     padding-left: 6px;
   }
   .client-logo {
-    width: 33.33%;
+    width: 100%;
   }
   .press-logo {
     width: 28%;
